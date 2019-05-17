@@ -13,3 +13,5 @@
 /.vs/HornedFrog/v16
 /.vs
 /HornedFrog/obj
+/Core/HornedFrog.Core/obj/Debug/netcoreapp2.2
+/Core/HornedFrog.Core/obj
