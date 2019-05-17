@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornedFrog", "HornedFrog\HornedFrog.csproj", "{EB45C553-6B7B-4294-ABC5-0723E7BAB32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HornedFrog", "HornedFrog\HornedFrog.csproj", "{EB45C553-6B7B-4294-ABC5-0723E7BAB32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornedFrog.Core", "Core\HornedFrog.Core\HornedFrog.Core.csproj", "{9438D41D-4FFD-4285-9AAD-C0C35DF75028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HornedFrog.Core", "Core\HornedFrog.Core\HornedFrog.Core.csproj", "{9438D41D-4FFD-4285-9AAD-C0C35DF75028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornedFrog.Data", "HornedFrog.Data\HornedFrog.Data.csproj", "{018ED43B-682F-460A-A6F0-3FF9B900BD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornedFrog.Domain", "HornedFrog.Domain\HornedFrog.Domain.csproj", "{AAA40F62-36FF-4C3F-AF79-DC85E54B7702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornedFrog.DataContract", "HornedFrog.DataContract\HornedFrog.DataContract.csproj", "{C96CFF94-F618-44E8-8711-A795A9C3A9E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{9438D41D-4FFD-4285-9AAD-C0C35DF75028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9438D41D-4FFD-4285-9AAD-C0C35DF75028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9438D41D-4FFD-4285-9AAD-C0C35DF75028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018ED43B-682F-460A-A6F0-3FF9B900BD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018ED43B-682F-460A-A6F0-3FF9B900BD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018ED43B-682F-460A-A6F0-3FF9B900BD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018ED43B-682F-460A-A6F0-3FF9B900BD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA40F62-36FF-4C3F-AF79-DC85E54B7702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA40F62-36FF-4C3F-AF79-DC85E54B7702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA40F62-36FF-4C3F-AF79-DC85E54B7702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA40F62-36FF-4C3F-AF79-DC85E54B7702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96CFF94-F618-44E8-8711-A795A9C3A9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96CFF94-F618-44E8-8711-A795A9C3A9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96CFF94-F618-44E8-8711-A795A9C3A9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96CFF94-F618-44E8-8711-A795A9C3A9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

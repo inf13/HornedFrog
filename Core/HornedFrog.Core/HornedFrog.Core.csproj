@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\HornedFrog.DataContract\HornedFrog.DataContract.csproj" />
+    <ProjectReference Include="..\..\HornedFrog.Domain\HornedFrog.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
